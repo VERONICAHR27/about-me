@@ -58,8 +58,16 @@ h1 {
     margin-bottom:20px;
  }
  li {
-    border: solid;
-    padding: 15px;
-    border-radius: 22px;
     
+    padding: 15px;
+    border-radius: 22px;  
  }
+
+ .deportistas ol{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: upper-roman;
+ }
+ 
+   
